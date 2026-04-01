@@ -436,7 +436,7 @@ const otherProjects = [
     ],
     image: porkAnalyticsImg,
     source_code_link: "https://github.com/kbdevopz/porkdemos",
-    live_project_link: "https://pork-industry-portfolio.onrender.com",
+    live_project_link: "https://porkdemos.onrender.com/",
   },
   {
     name: "Enterprise Power Platform",
