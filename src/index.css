@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --accent: #10B981;
+  --accent-light: #34D399;
+  --accent-dark: #059669;
+  --accent-glow: rgba(16, 185, 129, 0.3);
+  --accent-secondary: #6EE7B7;
+  --gradient-start: #10B981;
+  --gradient-end: #34D399;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,19 +44,19 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: var(--accent);
+  background: linear-gradient(-90deg, var(--accent) 0%, rgba(16, 185, 129, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
+    var(--accent) 0%,
+    rgba(16, 185, 129, 0) 100%
   );
 }
 
 .green-pink-gradient {
-  background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: var(--accent-dark);
+  background: linear-gradient(90.13deg, var(--accent-dark) 1.9%, var(--accent-light) 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, var(--accent-dark) 1.9%, var(--accent-light) 97.5%);
 }
 
 .orange-text-gradient {

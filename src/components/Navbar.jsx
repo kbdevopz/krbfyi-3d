@@ -96,7 +96,7 @@ const Navbar = () => {
               style={{
                 fontFamily: "'JetBrains Mono', monospace",
                 fontSize: "22px",
-                background: "linear-gradient(90deg, #915EFF, #00BFFF)",
+                background: "linear-gradient(90deg, var(--accent), var(--accent-light))",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",

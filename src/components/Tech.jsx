@@ -174,12 +174,12 @@ const Tech = () => {
         style={{
           fontFamily: "'JetBrains Mono', monospace",
           fontSize: "26px",
-          background: "linear-gradient(90deg, #915EFF, #00BFFF)",
+          background: "linear-gradient(90deg, var(--accent), var(--accent-light))",
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
           backgroundClip: "text",
           textFillColor: "transparent",
-          filter: "drop-shadow(0 0 10px #915EFF)",
+          filter: "drop-shadow(0 0 10px var(--accent))",
         }}
       >{`<${categoryName}>`}</motion.h2>
       <div className="honeycomb-grid">
@@ -214,12 +214,12 @@ const Tech = () => {
         style={{
           fontFamily: "'JetBrains Mono', monospace",
           fontSize: "26px",
-          background: "linear-gradient(90deg, #915EFF, #00BFFF)",
+          background: "linear-gradient(90deg, var(--accent), var(--accent-light))",
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
           backgroundClip: "text",
           textFillColor: "transparent",
-          filter: "drop-shadow(0 0 10px #915EFF)",
+          filter: "drop-shadow(0 0 10px var(--accent))",
         }}
       >{`</${categoryName}>`}</motion.h2>
     </motion.div>

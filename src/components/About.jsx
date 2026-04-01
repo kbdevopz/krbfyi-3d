@@ -76,7 +76,7 @@ const About = () => {
           variants={fadeIn("right", "spring", 0.5, 0.75)}
           className="w-full md:w-1/3 flex flex-col items-center"
         >
-          <div className="relative w-64 h-64 rounded-full p-[3px] bg-gradient-to-br from-[#915EFF] via-[#00BFFF] to-[#915EFF] shadow-[0_0_30px_5px_rgba(145,94,255,0.3)]">
+          <div className="relative w-64 h-64 rounded-full p-[3px] bg-gradient-to-br from-[var(--accent)] via-[var(--accent-secondary)] to-[var(--accent-dark)] shadow-[0_0_30px_5px_rgba(145,94,255,0.3)]">
             <div className="w-full h-full rounded-full overflow-hidden bg-tertiary">
               <img
                 src={profilepic || "/placeholder.svg"}
@@ -94,7 +94,7 @@ const About = () => {
               href="https://www.linkedin.com/in/karlis-baisden-132251191/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-blue-700 flex items-center justify-center shadow-[0_4px_0_0_rgba(0,0,0,0.6)] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.6)] hover:translate-y-[2px] active:translate-y-1 active:shadow-none transition-all duration-100"
+              className="w-12 h-12 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-700 flex items-center justify-center shadow-[0_4px_0_0_rgba(0,0,0,0.6)] hover:shadow-[0_2px_0_0_rgba(0,0,0,0.6)] hover:translate-y-[2px] active:translate-y-1 active:shadow-none transition-all duration-100"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               title="LinkedIn"

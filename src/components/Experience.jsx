@@ -13,10 +13,10 @@ const ExperienceCard = React.memo(({ experience, onClick, index, isLast }) => {
     >
       {/* Timeline connector line */}
       {!isLast && (
-        <div className="absolute left-8 top-[76px] w-[2px] h-[calc(100%-32px)] bg-gradient-to-b from-[#915EFF] to-[#915EFF33]" />
+        <div className="absolute left-8 top-[76px] w-[2px] h-[calc(100%-32px)] bg-gradient-to-b from-[var(--accent)] to-[var(--accent)33]" />
       )}
       <div
-        className="flex items-center p-4 rounded-lg cursor-pointer transition-all duration-300 bg-primary hover:bg-tertiary hover:border hover:border-[#915EFF44] border border-transparent"
+        className="flex items-center p-4 rounded-lg cursor-pointer transition-all duration-300 bg-primary hover:bg-tertiary hover:border hover:border-[var(--accent)44] border border-transparent"
         onClick={onClick}
         onKeyDown={(e) => e.key === 'Enter' && onClick()}
         role="button"
@@ -24,7 +24,7 @@ const ExperienceCard = React.memo(({ experience, onClick, index, isLast }) => {
         aria-label={`${experience.title} at ${experience.company_name}`}
       >
         <div
-          className="flex-shrink-0 w-16 h-16 rounded-full overflow-hidden mr-4 relative z-10 border-2 border-[#915EFF55]"
+          className="flex-shrink-0 w-16 h-16 rounded-full overflow-hidden mr-4 relative z-10 border-2 border-[var(--accent)55]"
           style={{ backgroundColor: experience.iconBg || 'transparent' }}
         >
           <img
@@ -36,7 +36,7 @@ const ExperienceCard = React.memo(({ experience, onClick, index, isLast }) => {
         <div>
           <h3 className="text-white text-[18px] font-bold">{experience.title}</h3>
           <p className="text-secondary text-[14px]">{experience.company_name}</p>
-          <p className="text-[#915EFF] text-[12px] mt-1 font-medium">{experience.date}</p>
+          <p className="text-[var(--accent)] text-[12px] mt-1 font-medium">{experience.date}</p>
         </div>
       </div>
     </motion.div>
@@ -73,7 +73,7 @@ const ExperienceLightbox = ({ experience, onClose }) => {
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.9, y: 20 }}
         transition={{ duration: 0.25, ease: "easeOut" }}
-        className="relative bg-tertiary border border-[#915EFF33] rounded-2xl p-8 max-w-lg w-full max-h-[80vh] overflow-y-auto shadow-[0_0_40px_rgba(145,94,255,0.15)]"
+        className="relative bg-tertiary border border-[var(--accent)33] rounded-2xl p-8 max-w-lg w-full max-h-[80vh] overflow-y-auto shadow-[0_0_40px_rgba(145,94,255,0.15)]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -87,7 +87,7 @@ const ExperienceLightbox = ({ experience, onClose }) => {
         {/* Header */}
         <div className="flex items-center mb-6">
           <div
-            className="flex-shrink-0 w-14 h-14 rounded-full overflow-hidden mr-4 border-2 border-[#915EFF55]"
+            className="flex-shrink-0 w-14 h-14 rounded-full overflow-hidden mr-4 border-2 border-[var(--accent)55]"
             style={{ backgroundColor: experience.iconBg || 'transparent' }}
           >
             <img
@@ -99,7 +99,7 @@ const ExperienceLightbox = ({ experience, onClose }) => {
           <div>
             <h3 className="text-white text-[22px] font-bold">{experience.title}</h3>
             <p className="text-secondary text-[15px]">{experience.company_name}</p>
-            <p className="text-[#915EFF] text-[13px] mt-1 font-medium">{experience.date}</p>
+            <p className="text-[var(--accent)] text-[13px] mt-1 font-medium">{experience.date}</p>
           </div>
         </div>
 

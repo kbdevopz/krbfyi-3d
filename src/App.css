@@ -46,7 +46,7 @@
 /* Honeycomb skills stuff */
 :root {
   --color-2: #2a1d4c; /* Darker purple for hexagon background */
-  --color-3: #915eff; /* Lighter purple for glow effect */
+  --color-3: #10B981; /* Teal for glow effect */
 }
 
 .skills {
@@ -138,7 +138,7 @@
 .category-title {
   font-family: var(--script-font);
   font-size: 26px;
-  background: linear-gradient(90deg, #915EFF, #00BFFF);
+  background: linear-gradient(90deg, var(--accent), #00BFFF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

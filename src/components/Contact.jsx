@@ -156,7 +156,7 @@ const Contact = () => {
             <div className="flex-1">
               <label className="flex flex-col">
                 <span className="text-white font-medium mb-4 flex items-center gap-2">
-                  <FontAwesomeIcon icon={faUser} className="text-purple-400" />
+                  <FontAwesomeIcon icon={faUser} className="text-emerald-400" />
                   Name
                 </span>
                 <input
@@ -165,14 +165,14 @@ const Contact = () => {
                   value={form.name}
                   onChange={handleChange}
                   placeholder="Your name"
-                  className="bg-black-100/50 backdrop-blur-sm py-4 px-6 placeholder:text-secondary text-white rounded-xl outline-none border-2 border-white/20 font-medium transition-all duration-300 focus:ring-2 focus:ring-purple-500/50 focus:border-purple-500 focus:bg-black-100/70 hover:border-white/30"
+                  className="bg-black-100/50 backdrop-blur-sm py-4 px-6 placeholder:text-secondary text-white rounded-xl outline-none border-2 border-white/20 font-medium transition-all duration-300 focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 focus:bg-black-100/70 hover:border-white/30"
                 />
               </label>
             </div>
             <div className="flex-1">
               <label className="flex flex-col">
                 <span className="text-white font-medium mb-4 flex items-center gap-2">
-                  <FontAwesomeIcon icon={faEnvelope} className="text-purple-400" />
+                  <FontAwesomeIcon icon={faEnvelope} className="text-emerald-400" />
                   Email
                 </span>
                 <input
@@ -181,14 +181,14 @@ const Contact = () => {
                   value={form.email}
                   onChange={handleChange}
                   placeholder="Your email"
-                  className="bg-black-100/50 backdrop-blur-sm py-4 px-6 placeholder:text-secondary text-white rounded-xl outline-none border-2 border-white/20 font-medium transition-all duration-300 focus:ring-2 focus:ring-purple-500/50 focus:border-purple-500 focus:bg-black-100/70 hover:border-white/30"
+                  className="bg-black-100/50 backdrop-blur-sm py-4 px-6 placeholder:text-secondary text-white rounded-xl outline-none border-2 border-white/20 font-medium transition-all duration-300 focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 focus:bg-black-100/70 hover:border-white/30"
                 />
               </label>
             </div>
           </div>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4 flex items-center gap-2">
-              <FontAwesomeIcon icon={faComment} className="text-purple-400" />
+              <FontAwesomeIcon icon={faComment} className="text-emerald-400" />
               Message
             </span>
             <textarea
@@ -197,7 +197,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="Hey Karlis, I'd love to chat about some opportunities! 🎉"
-              className="bg-black-100/50 backdrop-blur-sm py-4 px-6 placeholder:text-secondary text-white rounded-xl outline-none border-2 border-white/20 font-medium transition-all duration-300 focus:ring-2 focus:ring-purple-500/50 focus:border-purple-500 focus:bg-black-100/70 hover:border-white/30 resize-none"
+              className="bg-black-100/50 backdrop-blur-sm py-4 px-6 placeholder:text-secondary text-white rounded-xl outline-none border-2 border-white/20 font-medium transition-all duration-300 focus:ring-2 focus:ring-emerald-500/50 focus:border-emerald-500 focus:bg-black-100/70 hover:border-white/30 resize-none"
             />
           </label>
 
@@ -219,7 +219,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="relative bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_0_20px_rgba(168,85,247,0.4)] hover:shadow-[0_0_30px_rgba(168,85,247,0.6)] hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 overflow-hidden group"
+            className="relative bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-600 hover:to-teal-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_0_20px_rgba(16,185,129,0.4)] hover:shadow-[0_0_30px_rgba(16,185,129,0.6)] hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 overflow-hidden group"
             disabled={loading}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
