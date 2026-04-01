@@ -91,11 +91,10 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
-          to_name: "Karlis Baisden",
-          from_email: form.email,
-          to_email: "karlis.baisden@outlook.com",
+          name: form.name,
+          title: form.name,
           message: form.message,
+          email: form.email,
         },
         import.meta.env.VITE_EMAIL_JS_ACCESS_TOKEN,
       )

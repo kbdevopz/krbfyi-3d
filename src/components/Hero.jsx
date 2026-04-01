@@ -71,9 +71,10 @@ const WavingHand = () => {
 const Hero = () => {
   const typedItems = [
     "Builder",
-    "Data Scientist",
-    "Dynamics 365 Wiz",
-    "Technologist"
+    "Technologist",
+    "Data Nerd",
+    "Apps Script Pro",
+    "Dynamics 365 Wiz"
   ];
 
   return (

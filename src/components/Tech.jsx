@@ -31,6 +31,8 @@ import {
   powerautomate,
   dynamics365,
   dbt,
+  appsscript,
+  googlesheets,
 } from "../assets";
 
 const languagesAndFrameworks = [
@@ -62,6 +64,8 @@ const aiAndPlatforms = [
   { name: "Claude API", icon: claude },
   { name: "scikit-learn", icon: sklearn },
   { name: "XGBoost", icon: xgboost },
+  { name: "Apps Script", icon: appsscript },
+  { name: "Google Sheets", icon: googlesheets },
   { name: "Power Apps", icon: powerapps },
   { name: "Power Automate", icon: powerautomate },
   { name: "Dynamics 365", icon: dynamics365 },

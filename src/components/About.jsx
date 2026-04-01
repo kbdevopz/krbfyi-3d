@@ -136,7 +136,7 @@ const About = () => {
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.1, 0.75)}>
               <span className="mr-4 text-2xl flex-shrink-0">👨‍💻</span>
               <span>
-                Builder with 25+ years shipping software — from PHP in 2000 to React, Python, Dynamics 365, and AI today. Currently programming and building Dynamics 365 solutions in enterprise agriculture.
+                Builder with 25+ years shipping software — from PHP in 2000 to React, Python, Dynamics 365, Google Apps Script, and AI today. Currently building Dynamics 365 solutions and Google Workspace automations.
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.2, 0.75)}>

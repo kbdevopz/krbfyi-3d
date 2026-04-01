@@ -60,6 +60,8 @@ import dbt from "./tech/dbt.svg";
 import sql from "./tech/sql.svg";
 import flask from "./tech/flask.svg";
 import vite from "./tech/vite.svg";
+import appsscript from "./tech/appsscript.svg";
+import googlesheets from "./tech/googlesheets.svg";
 const drizzle = placeholder("Drizzle", "#C5F74F", "#000000");
 const dash = placeholder("Dash", "#119DFF", "#ffffff");
 const express = placeholder("Express", "#000000", "#ffffff");
@@ -133,6 +135,8 @@ export {
   dash,
   express,
   vite,
+  appsscript,
+  googlesheets,
   brown,
   bellevue,
   witcc,
