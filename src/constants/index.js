@@ -237,7 +237,7 @@ const extracurricular = [
     iconBg: "#C74634",
     date: "2025",
     points: ["Generative AI, Prompt Engineering, LLM Architecture, AI Ethics"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Power Platform Solutions Architect",
@@ -246,7 +246,7 @@ const extracurricular = [
     iconBg: "#000000",
     date: "2024",
     points: ["Power Platform, Dynamics 365, Dataverse, Solution Architecture, Enterprise Integration"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "SQL Associate",
@@ -255,7 +255,7 @@ const extracurricular = [
     iconBg: "#000000",
     date: "2024",
     points: ["SQL Queries, Joins, Aggregation, Subqueries, Window Functions"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Data Analyst Associate",
@@ -264,7 +264,7 @@ const extracurricular = [
     iconBg: "#000000",
     date: "2024",
     points: ["Data Analysis, Statistical Methods, Data Cleaning, Visualization, Reporting"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Data Engineer Associate",
@@ -273,7 +273,7 @@ const extracurricular = [
     iconBg: "#000000",
     date: "2024",
     points: ["ETL Pipelines, Data Warehousing, SQL, Python, Data Modeling"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "AI Engineer for Data Scientists Associate",
@@ -282,7 +282,7 @@ const extracurricular = [
     iconBg: "#000000",
     date: "2024",
     points: ["Machine Learning, Deep Learning, NLP, Model Deployment, AI Pipelines"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Applied Machine Learning in Python",
@@ -291,7 +291,7 @@ const extracurricular = [
     iconBg: "#00274C",
     date: "2024",
     points: ["scikit-learn, Classification, Regression, Model Evaluation, Feature Engineering"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Applied Plotting & Data Representation",
@@ -300,7 +300,7 @@ const extracurricular = [
     iconBg: "#00274C",
     date: "2024",
     points: ["matplotlib, Data Visualization, Chart Design, Interactive Plots"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Exploratory Data Analysis for Machine Learning",
@@ -309,7 +309,7 @@ const extracurricular = [
     iconBg: "#052FAD",
     date: "2024",
     points: ["EDA, Feature Selection, Data Cleaning, Statistical Analysis, Python"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Supervised Machine Learning — Classification",
@@ -318,7 +318,7 @@ const extracurricular = [
     iconBg: "#052FAD",
     date: "2024",
     points: ["Decision Trees, Random Forests, SVM, KNN, Logistic Regression"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Supervised Machine Learning — Regression",
@@ -327,7 +327,7 @@ const extracurricular = [
     iconBg: "#052FAD",
     date: "2024",
     points: ["Linear Regression, Polynomial Regression, Ridge, Lasso, Model Evaluation"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Project Management",
@@ -336,7 +336,7 @@ const extracurricular = [
     iconBg: "#050C18",
     date: "2023",
     points: ["Agile, Scrum, Project Planning, Risk Management, Stakeholder Communication"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
   {
     title: "Six Sigma Yellow Belt",
@@ -345,7 +345,7 @@ const extracurricular = [
     iconBg: "#FFD700",
     date: "2023",
     points: ["Process Improvement, DMAIC, Lean Principles, Quality Control, Root Cause Analysis"],
-    credential: "",
+    credential: "https://www.linkedin.com/in/karlis-baisden-132251191/",
   },
 ];
 
