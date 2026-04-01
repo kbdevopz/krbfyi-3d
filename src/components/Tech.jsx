@@ -172,7 +172,7 @@ const Tech = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
         style={{
-          fontFamily: "'', cursive",
+          fontFamily: "'JetBrains Mono', monospace",
           fontSize: "26px",
           background: "linear-gradient(90deg, #915EFF, #00BFFF)",
           WebkitBackgroundClip: "text",
@@ -212,7 +212,7 @@ const Tech = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
         style={{
-          fontFamily: "'', cursive",
+          fontFamily: "'JetBrains Mono', monospace",
           fontSize: "26px",
           background: "linear-gradient(90deg, #915EFF, #00BFFF)",
           WebkitBackgroundClip: "text",
