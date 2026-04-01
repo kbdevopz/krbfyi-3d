@@ -148,13 +148,6 @@ const Contact = () => {
       >
         <div className="flex justify-between items-center mb-4">
           <p className={styles.sectionSubText}>Get in touch</p>
-          <a
-            href="mailto:karlis.baisden@outlook.com"
-            className="text-purple-400 hover:text-purple-300 transition-all duration-300 flex items-center gap-2 hover:gap-3 group"
-          >
-            <FontAwesomeIcon icon={faEnvelope} className="group-hover:rotate-12 transition-transform duration-300" />
-            <span className="font-medium">karlis.baisden@outlook.com</span>
-          </a>
         </div>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 

@@ -76,6 +76,8 @@ import oracle from "./company/oracle.svg";
 import datacamp from "./company/datacamp.svg";
 import umich from "./company/umich.svg";
 import ssyb from "./company/ssyb.svg";
+import onetechdigital from "./company/onetechdigital.svg";
+import coyoteweb from "./company/coyoteweb.svg";
 
 // Project screenshots — real images where available, placeholders for rest
 import unbarredLabsImg from "./projects/unbarred-labs.png";
@@ -161,4 +163,6 @@ export {
   staffabilityImg,
   projectPivotImg,
   enterprisePowerImg,
+  onetechdigital,
+  coyoteweb,
 };

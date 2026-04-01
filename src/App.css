@@ -174,3 +174,41 @@
     padding: 15px 0 5px 10px;
   }
 }
+
+/* Hex tooltip — hidden by default, shows on hover/tap */
+.hex-tooltip {
+  position: absolute;
+  bottom: calc(100% - 20px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.8);
+  background: rgba(21, 16, 48, 0.95);
+  color: #fff;
+  font-size: 12px;
+  font-family: system-ui, sans-serif;
+  font-weight: 600;
+  white-space: nowrap;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(145, 94, 255, 0.4);
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.hex-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: rgba(145, 94, 255, 0.4);
+}
+
+.hex-tooltip-wrapper:hover .hex-tooltip,
+.hex-tooltip-wrapper:active .hex-tooltip {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}

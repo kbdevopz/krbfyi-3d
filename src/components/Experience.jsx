@@ -5,33 +5,42 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant, fadeIn } from "../utils/motion";
 
-const ExperienceCard = React.memo(({ experience, isActive, onClick, index }) => {
+const ExperienceCard = React.memo(({ experience, isActive, onClick, index, isLast }) => {
   return (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.1, 0.5)}
-      className={`flex items-center p-4 rounded-lg cursor-pointer transition-all duration-300 ${
-        isActive ? "bg-tertiary" : "bg-primary"
-      }`}
-      onClick={onClick}
-      onKeyDown={(e) => e.key === 'Enter' && onClick()}
-      role="button"
-      tabIndex={0}
-      aria-selected={isActive}
-      aria-label={`${experience.title} at ${experience.company_name}`}
+      className="relative"
     >
+      {/* Timeline connector line */}
+      {!isLast && (
+        <div className="absolute left-8 top-[76px] w-[2px] h-[calc(100%-32px)] bg-gradient-to-b from-[#915EFF] to-[#915EFF33]" />
+      )}
       <div
-        className="flex-shrink-0 w-16 h-16 rounded-full overflow-hidden mr-4"
-        style={{ backgroundColor: experience.iconBg || 'transparent' }}
+        className={`flex items-center p-4 rounded-lg cursor-pointer transition-all duration-300 ${
+          isActive ? "bg-tertiary border border-[#915EFF44]" : "bg-primary"
+        }`}
+        onClick={onClick}
+        onKeyDown={(e) => e.key === 'Enter' && onClick()}
+        role="button"
+        tabIndex={0}
+        aria-selected={isActive}
+        aria-label={`${experience.title} at ${experience.company_name}`}
       >
-        <img
-          src={experience.icon}
-          alt={experience.company_name}
-          className="w-full h-full object-cover"
-        />
-      </div>
-      <div>
-        <h3 className="text-white text-[18px] font-bold">{experience.title}</h3>
-        <p className="text-secondary text-[14px]">{experience.company_name}</p>
+        <div
+          className="flex-shrink-0 w-16 h-16 rounded-full overflow-hidden mr-4 relative z-10 border-2 border-[#915EFF55]"
+          style={{ backgroundColor: experience.iconBg || 'transparent' }}
+        >
+          <img
+            src={experience.icon}
+            alt={experience.company_name}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div>
+          <h3 className="text-white text-[18px] font-bold">{experience.title}</h3>
+          <p className="text-secondary text-[14px]">{experience.company_name}</p>
+          <p className="text-[#915EFF] text-[12px] mt-1 font-medium">{experience.date}</p>
+        </div>
       </div>
     </motion.div>
   );
@@ -123,6 +132,7 @@ const Experience = () => {
                 isActive={index === activeExperience}
                 onClick={() => handleExperienceClick(index)}
                 index={index}
+                isLast={index === experiences.length - 1}
               />
             ))}
           </div>

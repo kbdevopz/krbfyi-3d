@@ -191,27 +191,15 @@ const Tech = () => {
             {row.map((tech) => (
               <motion.div
                 key={tech.name}
-                className="hexagon"
+                className="hexagon hex-tooltip-wrapper"
                 variants={hexagonVariants}
                 initial="hidden"
                 animate="visible"
                 whileHover="hover"
-                title={tech.name}
                 style={{ position: "relative" }}
               >
-                <img src={tech.icon} alt={tech.name}  style={{ userSelect: "none" }} draggable="false"/>
-                <span style={{
-                  position: "absolute",
-                  bottom: "-28px",
-                  left: "50%",
-                  transform: "translateX(-50%)",
-                  fontSize: "11px",
-                  color: "#aaa6c3",
-                  whiteSpace: "nowrap",
-                  fontFamily: "system-ui, sans-serif",
-                  fontWeight: 500,
-                  opacity: 0.8,
-                }}>{tech.name}</span>
+                <img src={tech.icon} alt={tech.name} style={{ userSelect: "none" }} draggable="false"/>
+                <span className="hex-tooltip">{tech.name}</span>
               </motion.div>
             ))}
           </div>
