@@ -90,6 +90,7 @@ import staffabilityImg from "./projects/staffability.png";
 import projectPivotImg from "./projects/project-pivot.png";
 import cogwheelTechImg from "./projects/cogwheel-tech.jpg";
 import enterprisePowerImg from "./projects/enterprise-power.png";
+import systemImpactExplorerImg from "./projects/system-impact-explorer.png";
 
 // Resume route
 const resume = "/resume";
@@ -163,6 +164,7 @@ export {
   staffabilityImg,
   projectPivotImg,
   enterprisePowerImg,
+  systemImpactExplorerImg,
   onetechdigital,
   coyoteweb,
 };
