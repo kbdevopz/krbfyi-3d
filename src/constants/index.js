@@ -53,6 +53,7 @@ import {
   staffabilityImg,
   projectPivotImg,
   enterprisePowerImg,
+  systemImpactExplorerImg,
   onetechdigital,
   coyoteweb,
 } from "../assets";
@@ -351,6 +352,20 @@ const extracurricular = [
 
 // ── Justice Tech ──────────────────────────────────────────────
 const justiceTechProjects = [
+  {
+    name: "System Impact Explorer",
+    description:
+      "Decision-support dashboard for correctional leaders connecting supervision outcomes to cost, public safety, and economic participation across 14 U.S. states. Six interactive views (Overview, Outcomes, Cost Impact, Economic, Simulator, Opportunities) with nightly data ingestion from state Offender Management Systems.",
+    tags: [
+      { name: "Next.js 16", color: "blue-text-gradient" },
+      { name: "React 19", color: "green-text-gradient" },
+      { name: "TypeScript", color: "pink-text-gradient" },
+      { name: "Justice Tech", color: "orange-text-gradient" },
+    ],
+    image: systemImpactExplorerImg,
+    source_code_link: "https://github.com/kbdevopz/system-impact-explorer",
+    live_project_link: "https://www.impactexplorer.xyz",
+  },
   {
     name: "Unbarred Labs",
     description:
